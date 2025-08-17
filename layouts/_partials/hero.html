@@ -1,0 +1,19 @@
+{{ $page := . }}
+{{ with resources.Get $page.Params.hero_image }}
+  <section
+    class="min-h-screen bg-cover bg-{{$page.Params.image_position | default "center"}} bg-no-repeat bg-fixed"
+    style="background-image: url('{{ .RelPermalink }}')"
+  >
+    <div class="flex justify-center min-h-screen bg-black/50">
+      <div class="p-6">
+        <h1 class="font-petit text-white text-4xl md:text-6xl mb-4 mt-24 md:mt-8">
+          {{ $page.Params.header | default $page.Title }}
+        </h1>
+        <p class="text-center font-cormorant text-white text-lg md:text-xl max-w-xl">
+            {{ $page.Params.subheader }}
+        </p>
+        <p class="text-lg md:text-xl max-w-xl mx-auto"></p>
+      </div>
+    </div>
+  </section>
+{{ end }}

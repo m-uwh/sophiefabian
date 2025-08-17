@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="de-DE" class="scroll-smooth">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body class="bg-cream">
+    {{ partial "hero.html" . }}
+
+    {{ $invitation := where .Params.sections "id" "invitation"}} 
+    {{ with index $invitation 0 }} 
+      {{ partial "invitation.html" . }} 
+    {{ end }}
+
+    {{ $civil_wedding := where .Params.sections "id" "civil_wedding"}} 
+    {{ with index $civil_wedding 0 }} 
+      {{ partial "civil_wedding.html" . }} 
+    {{ end }}
+
+    {{ $civil_wedding_event := where .Params.sections "id" "civil_wedding_event"}} 
+    {{ with index $civil_wedding_event 0 }} 
+      {{ partial "civil_wedding_event.html" . }} 
+    {{ end }}
+    <div class="divider"></div>
+    {{ $free_wedding := where .Params.sections "id" "free_wedding"}} 
+    {{ with index $free_wedding 0 }} 
+      {{ partial "free_wedding.html" . }} 
+    {{ end }}
+
+    <footer>
+      <p>© Sophie Uwannah</p>
+    </footer>
+  </body>
+</html>

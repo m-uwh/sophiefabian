@@ -1,0 +1,60 @@
+{
+  "htmlElements": {
+    "tags": [
+      "body",
+      "br",
+      "div",
+      "footer",
+      "h1",
+      "head",
+      "html",
+      "link",
+      "meta",
+      "p",
+      "script",
+      "section",
+      "title"
+    ],
+    "classes": [
+      "bg-black/50",
+      "bg-cover",
+      "bg-cream",
+      "bg-fixed",
+      "bg-no-repeat",
+      "bg-right",
+      "divider",
+      "flex",
+      "font-cormorant",
+      "font-extralight",
+      "font-light",
+      "font-petit",
+      "justify-center",
+      "m-4",
+      "m-8",
+      "max-w-x8",
+      "max-w-xl",
+      "mb-4",
+      "md:mt-8",
+      "md:text-6xl",
+      "md:text-xl",
+      "min-h-screen",
+      "mt-16",
+      "mt-24",
+      "mx-auto",
+      "p-6",
+      "scroll-smooth",
+      "text-2xl",
+      "text-4xl",
+      "text-center",
+      "text-lg",
+      "text-white",
+      "text-xl"
+    ],
+    "ids": [
+      "civil_wedding",
+      "civil_wedding_event",
+      "free_wedding",
+      "invitation"
+    ]
+  }
+}

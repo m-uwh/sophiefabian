@@ -1,0 +1,11 @@
+<section
+  id="{{ .id }}"
+  class="m-4 max-w-x8 text-center"
+>
+  {{ with .label }}
+  <h1 class="text-2xl font-light font-cormorant">{{ .  }}</h1>
+  {{ end }} 
+  {{ with .paragraphs }}
+  <p class="text-xl font-light font-cormorant">{{ . | markdownify }}</p>
+  {{ end }}
+</section>

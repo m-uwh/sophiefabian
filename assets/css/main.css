@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@source "hugo_stats.json";
+
+@theme {
+  --font-petit: "Petit Formal Script", cursive;
+  --font-cormorant: "Cormorant Garamond", serif;
+  --font-lora: "Lora", serif;
+
+  --color-blush-light: #fcedea;
+  --color-blush: #f6d1c1;
+  --color-blush-dark: #e3a89a;
+
+  --color-champagne-light: #fff8f0;
+  --color-champagne: #f7e7ce;
+  --color-champagne-dark: #e0c9a6;
+
+  --color-sage-light: #e6efe5;
+  --color-sage: #9caf88;
+  --color-sage-dark: #6e8b5e;
+
+  --color-charcoal-light: #555555;
+  --color-charcoal: #2f2f2f;
+
+  --color-cream: #faf7f2;
+}
