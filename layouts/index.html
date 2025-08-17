@@ -1,9 +1,4 @@
-<!doctype html>
-<html lang="de-DE" class="scroll-smooth">
-  <head>
-    {{ partial "head.html" . }}
-  </head>
-  <body class="bg-cream">
+{{ define "main" }}
     {{ partial "hero.html" . }}
 
     {{ $invitation := where .Params.sections "id" "invitation"}} 
@@ -25,8 +20,9 @@
     {{ with index $free_wedding 0 }} 
       {{ partial "free_wedding.html" . }} 
     {{ end }}
+{{ end }}
 
-    <footer>
-    </footer>
-  </body>
-</html>
+
+
+ 
+    
