@@ -1,7 +1,7 @@
 [build]
   publish = "public"
   # If you use PostCSS/Tailwind, let npm run first; otherwise you can just use "hugo --gc --minify"
-  command = "npm ci && hugo --gc --minify"
+  command = "hugo --gc --minify"
 
 [build.environment]
   # Use the Hugo (extended) version you use locally: run `hugo version` to check
