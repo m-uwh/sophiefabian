@@ -1,1 +1,9 @@
-public/*
+/public/
+/resources/_gen/
+/hugo_stats.json
+/node_modules/
+/package-lock.json
+.DS_Store
+Thumbs.db
+*.log
+.netlify/
