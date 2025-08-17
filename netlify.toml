@@ -9,4 +9,4 @@
   HUGO_ENV = "production"
   NODE_VERSION = "18"
   # If your theme is a git submodule:
-  GIT_SUBMODULE_STRATEGY = "recursive
+  GIT_SUBMODULE_STRATEGY = "recursive"
