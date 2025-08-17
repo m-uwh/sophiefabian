@@ -1,7 +1,6 @@
 {
   "htmlElements": {
     "tags": [
-      "article",
       "body",
       "br",
       "button",
@@ -18,7 +17,6 @@
       "p",
       "script",
       "section",
-      "small",
       "title",
       "ul"
     ],
