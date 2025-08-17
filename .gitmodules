@@ -1,0 +1,3 @@
+[submodule "themes/wedding"]
+	path = themes/wedding
+	url = https://github.com/nkuik/wedding.git
